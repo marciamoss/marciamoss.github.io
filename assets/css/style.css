@@ -1,264 +1,99 @@
-body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    }
-    
-* {
-    box-sizing: border-box;
-    width: 960px;
+body{
+    background: #cccccc;
     margin: auto;
-    }
-    
-.box1 {
-    background: #cccccc;   
-    }
-    
-a {
+}
+.mname{
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;   
+    text-align: center; 
+}
+a{
     text-decoration: none;
     color: #cccccc;
-    background: #ffffff;
-    }
-
-#fixed {
-    float: left;
-    background: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 24px;
-    color: #ffffff;
-    padding: 20px;
-    margin: 0;
-    width: 240px;
-    position: relative;
-    top: 0;
-    }
-
-#right {
-    float: right;
-    text-align: right;
-    background: #ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 15px;
-    padding: 25px;
-    margin: 0;
-    right: 0;
-    position: relative;
-    width: 720px;
-    }
-
-#left {
-    clear: both;
-    background: #ffffff;
-    float: left;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 0;
-    text-align: left;
-    padding: 30px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 24px;
-    color: #4aaaa5;
-    }
-
-#hrline {
-    width: 900px;
-    }
-#mbox {
-        width: 900px;
-        height: 200px;
-    }
-#sbox {
-    width: 100px;
-    background: #4aaaa5;
-    color: #ffffff;
-    height: 35px;
-    }
-
-.imgplace {
-    clear: both;
-    padding: 0;
-    margin-top: 0;
-    margin-right: 25px;
-    margin-left: 25PX;
-    float: left;
-    width: 300px;
-    height: 300px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;  
+    font-weight: bold;
 }
-
-#txtplace {
-    padding:0;
-    margin: 0;
-    background: #ffffff;
-    float: left;
-    width: 100%;
-    height: 400px;
-    overflow: auto;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-    color: #777777;
-
-    }
-#ctxtplace {
-    clear: both;
-    float: left;
-    padding: 0 0 0 25px;
-    margin: 0;
-    background: #ffffff;
-    float: left;
-    width: 100%;
-    height: 400px;
-    overflow: auto;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-    }
-
-
-#content {
-    clear: both;
-    background: #ffffff;
-    float: left;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 0;
-    text-align: left;
-    padding: 30px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 24px;
-    color: #4aaaa5;
-    height: 500px;
-    }
-    
-.img1place {
-    clear: both;
-    width: 20%;
-    margin-top: 15px;
-    }
-
-.img2place {
-    position: relative; 
-    top: -211px;
-    left: 200px;
-    width: 20%; 
-    margin-top: 5px;
-    }
-
-.img3place {
-    position: relative; 
-    top: -422px;
-    left: 400px; 
-    width: 20%; 
-    margin-top: 5px;        
-    }
-.img4place {
-    position: relative; 
-    top: -420px;
-    left: 0px;
-    width: 20%; 
-    margin-top: 5px;
-    } 
-.img5place {
-    position: relative; 
-    top: -631px;
-    left: 200px;
-    width: 20%; 
-    margin-top: 5px;
-    } 
-   
-.img1text {
-    position: relative;
-    top: -70px;
-    left: -360px; 
-    background: #4aaaa5;
-    text-align: center;
-    width: 180px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    }
-.img2text {
-    position: relative;
-    top: -281px;
-    left: -160px; 
-    background: #4aaaa5; 
-    text-align: center;
-    width: 180px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    }
-.img3text {
-    position: relative;
-    top: -492px;
-    left: 40px; 
-    background: #4aaaa5; 
-    text-align: center; 
-    width: 180px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    }  
-.img4text {
-    position: relative;
-    top: -470px;
-    left: -360px; 
-    background: #4aaaa5; 
-     text-align: center;
-     width: 180px;
-     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-     font-size: 18px;
-    color: #ffffff;
-    }    
-.img5text {
-    position: relative;
-    top: -681px;
-    left: -160px;
-    background: #4aaaa5; 
-    text-align: center;
-    width: 180px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    }
-
-.fborder{
-    position: relative;
-    top: -610px;
-    left: -30px;
-    background: #777777; 
-    text-align: center;
-    width: 960px;
-    height: 40px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 15px;
-    color: #ffffff;
-    border-top-color: #4aaaa5;
-    border-style: solid;
-    border-width: 5px;
-    border-bottom-color: #777777;
-    border-left-color: #777777;
-    border-right-color: #777777;
-
-}
-
-.footer{
-    text-align: center;
-    border-width: 5px;
-    border-top-color: #4aaaa5;
-    border-bottom-color: #777777;
-    border-left-color: #777777;
-    border-right-color: #777777;
-    border-style: solid;
-    position: absolute;
-    bottom: 0;
+.fcolor{
     background: #777777;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+.page-header{
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;    
+    font-weight: bold;
+    
+}
+.pagecolor{
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.imgwidth{
+    width: 100%; 
+}
+.img1text {
+    position: relative ;
+    bottom: 40px;
+    float: left;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    overflow: auto;
+}
+
+.sbox {
+    background: #4aaaa5;
     color: #ffffff;
 }
 
+/* media queries */
+@media only screen and (max-width: 576px) {
 
+    .navalign{
+        text-align: center;
+    }
+    .imgalign{
+        margin-left: .5%;;
+        width: 100%;
+        padding: 10px; 
+    }
+}  
+ @media only screen and (min-width: 576px){
 
+    .navalign{
+        text-align: center;
+        
+    }
+    .imgalign{
+        margin-left: .5%;;
+        width: 100%;
+        padding: 10px;
+    }
+} 
+@media only screen and (min-width: 768px) {
+
+    .navalign{
+        text-align: right;
+    }
+}  
+@media only screen and (min-width: 992px) {
+
+    .navalign{
+        text-align: right;
+    }
+}
+ @media only screen and (min-width: 1200px) {
+
+    .navalign{
+        text-align: right;
+    }
+} 
 
 
 
@@ -266,3 +101,4 @@ a {
  
 
 
+ 
