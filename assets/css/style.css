@@ -2,6 +2,12 @@ body{
     background: #cccccc;
     margin: auto;
 }
+
+.bord{
+    border-style: ridge;
+    border-color: silver;
+    border-width: 10px;
+}
 .mname{
     background: #4aaaa5;
     color: #ffffff;
