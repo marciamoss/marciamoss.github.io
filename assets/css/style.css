@@ -4,9 +4,9 @@ body{
 }
 
 .bord{
-    border-style: ridge;
-    border-color: silver;
-    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }
 .mname{
     background: #4aaaa5;
